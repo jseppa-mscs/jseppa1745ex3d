@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>JSeppa1745ex3D - Form</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+
+    <body>
+        <nav class="purple darken-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">HobbySpot</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="Form.html">Fill Out Form</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#">Navbar Link</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <nav>
+            <div class="nav-wrapper">
+                <div class="col s12" style="text-align:center;">
+                    <a href="index.html" class="breadcrumb">Home</a>
+                    <a href="Form.html" class="breadcrumb">Form</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <form class="col s12 m8" style="padding-left: 100px; padding-top: 50px;">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate" />
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate" />
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="email" type="text" class="validate" />
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="dob" type="text" class="datepicker" />
+                        <label for="dob">Date of Birth</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="password" type="password" class="validate" />
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="rePassword" type="password" class="validate" />
+                        <label for="rePassword">Re-Enter Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="hobbies" type="text" class="validate" />
+                        <label for="hobbies">Hobbies</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Main Device Used:</p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>Computer</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>Mobile Device</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>Other</span>
+                        </label>
+                    </p>
+                </div>
+                <a class="waves-effect waves-light btn-large">Create Account!</a>
+            </form>
+        </div>
+
+        <footer class="page-footer purple darken-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">HobbySpot's Bio</h5>
+                        <p class="grey-text text-lighten-4">We are a team of just a few people who are interested
+                            in lots of different things. We want to make it easy for you to keep track of what your hobbies are.
+                            We want it to be a personal experience for every single person!
+                        </p>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Helpful Links</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">Contact Us</a></li>
+                            <li><a class="white-text" href="#!">Jobs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Form Link</h5>
+                        <ul>
+                            <li><a class="white-text" href="Form.html">Form</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    &copy; 2019 HobbySpot. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript">
+            M.AutoInit();
+        </script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+    </body>
+</html>
